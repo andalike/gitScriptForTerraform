@@ -10,7 +10,7 @@ rm -rf terraform_0.14.5_linux_amd64.zip
 
 mkdir deployAWS
 cd deployAWS
-rm -rf a1.tf
+rm -rf a1_v2.tf
 aws s3 sync s3://terraformconfigjan .
 terraform init
 terraform apply -auto-approve
