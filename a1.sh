@@ -8,7 +8,6 @@ sudo mv terraform /usr/local/bin/
 echo "Installed Terraform"
 rm -rf terraform_0.14.5_linux_amd64.zip
 
-rm -rf deployAWS
 mkdir deployAWS
 cd deployAWS
 rm -rf a1_v2.tf
